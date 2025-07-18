@@ -33,16 +33,16 @@ import SystemControl from "../shared/SystemControl";
 import WusstestDuSchon from "../shared/WusstestDuSchon";
 
 const shortcuts = [
-  { id: "home", label: "Startseite", icon: <HiHome className="w-8 h-8" />, color: "bg-rose-500", textColor: "text-rose-500" },
-  { id: "about", label: "Über mich", icon: <HiUser className="w-8 h-8" />, color: "bg-green-500", textColor: "text-green-500" },
-  { id: "experience", label: "Erfahrung", icon: <HiBriefcase className="w-8 h-8" />, color: "bg-sky-500", textColor: "text-sky-500" },
-  { id: "projects", label: "Projekte", icon: <HiCollection className="w-8 h-8" />, color: "bg-orange-500", textColor: "text-orange-500" },
-  { id: "skills", label: "Fähigkeiten", icon: <HiStar className="w-8 h-8" />, color: "bg-amber-500", textColor: "text-amber-500" },
+  { id: "home", label: "STARTSEITE", icon: <HiHome className="w-8 h-8" />, color: "bg-rose-500", textColor: "text-rose-500" },
+  { id: "about", label: "ÜBER MICH", icon: <HiUser className="w-8 h-8" />, color: "bg-green-500", textColor: "text-green-500" },
+  { id: "experience", label: "ERFAHRUNG", icon: <HiBriefcase className="w-8 h-8" />, color: "bg-sky-500", textColor: "text-sky-500" },
+  { id: "projects", label: "PROJEKTE", icon: <HiCollection className="w-8 h-8" />, color: "bg-orange-500", textColor: "text-orange-500" },
+  { id: "skills", label: "FÄHIGKEITEN", icon: <HiStar className="w-8 h-8" />, color: "bg-amber-500", textColor: "text-amber-500" },
   // New shortcuts start here
-  { id: "visitor-counter", label: "Klicke für ein Zitat", icon: <HiEye className="w-8 h-8" />, textColor: "" },
-  { id: "weather", label: "Klick für Wissen", icon: <HiQuestionMarkCircle className="w-8 h-8" />, textColor: "" },
-  { id: "system-status", label: "mein Bemühungen bis heute", icon: <HiBadgeCheck className="w-8 h-8" />, textColor: "" },
-  { id: "system-control", label: "PC Kontrolieren", icon: <HiLightningBolt className="w-8 h-8" />, textColor: "" },
+  { id: "visitor-counter", label: "KLICKE, UM EIN ZITAT ZU ENTDECKEN", icon: <HiEye className="w-8 h-8" />, textColor: "" },
+  { id: "weather", label: "EIN KLICK ZUM WISSEN", icon: <HiQuestionMarkCircle className="w-8 h-8" />, textColor: "" },
+  { id: "system-status", label: "MEINE BEMÜHUNGEN BIS HEUTE", icon: <HiBadgeCheck className="w-8 h-8" />, textColor: "" },
+  { id: "system-control", label: "PC STEUERN", icon: <HiLightningBolt className="w-8 h-8" />, textColor: "" },
 ];
 
 const getSectionComponent = (id: string, headingColor: string, setActiveSection: (section: string | null) => void) => {
