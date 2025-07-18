@@ -1390,6 +1390,10 @@ video {
   padding-top: 8x;
   padding-bottom: 8x;
 }
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -2112,6 +2116,21 @@ main {
   .lg\:px-80 {
     padding-left: 20rem;
     padding-right: 20rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 
   .lg\:text-2xl {

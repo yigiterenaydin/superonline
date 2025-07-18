@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
     <main className="bg-white text-gray-900 min-h-screen">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="container mx-auto px-4 lg:px-40">
         <div className="flex justify-between items-center py-2 text-lg text-gray-700">
           <div className="font-bold">{time}</div>
           <div className="flex items-center gap-2">
