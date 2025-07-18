@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 17, 17, 17;
+  --gradient-start: #7e22ce;
+  --gradient-mid: #ec4899;
+  --gradient-end: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure main content is visible */
+main {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] bg-primary  transition-all duration-300 ease-in-out;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45 translate-y-2;
+}
+.hamburger-active > span:nth-child(2) {
+  @apply opacity-0;
+}
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45 -translate-y-2;
+}
