@@ -217,7 +217,7 @@ const ShortcutsMenu: React.FC<ShortcutsMenuProps> = ({ activeSection, setActiveS
                 <div className="bg-white p-6 rounded-b-3xl text-gray-900 shadow-lg transition-all duration-300 ease-in-out">
                   {shortcut.id === 'visitor-counter' ? <MotivationalQuotes /> : shortcut.id === 'weather' ? <WusstestDuSchon /> : shortcut.id === 'system-status' ? (
                     <div className="flex flex-col items-center gap-2">
-                      <span className="text-lg font-semibold text-center text-amber-500">9 Schnupperlehren, an denen ich bisher teilnehmen durfte.</span>
+                      <span className="text-lg font-semibold text-center text-amber-500">12 Schnupperlehren, an denen ich bisher teilnehmen durfte.</span>
                       <span className="text-lg font-semibold text-center text-sky-500">0 Bisher von mir versandte Bewerbungen für Lehrstellen.</span>
                     </div>
                   ) : getSectionComponent(shortcut.id, shortcut.textColor || "", setActiveSection)}
