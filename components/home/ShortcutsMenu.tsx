@@ -41,7 +41,7 @@ const shortcuts = [
   // New shortcuts start here
   { id: "visitor-counter", label: "Klicke für ein Zitat", icon: <HiEye className="w-8 h-8" />, textColor: "" },
   { id: "weather", label: "Klick für Wissen", icon: <HiQuestionMarkCircle className="w-8 h-8" />, textColor: "" },
-  { id: "system-status", label: "Meine Zahlen Bis heute", icon: <HiBadgeCheck className="w-8 h-8" />, textColor: "" },
+  { id: "system-status", label: "mein Bemühungen bis heute", icon: <HiBadgeCheck className="w-8 h-8" />, textColor: "" },
   { id: "system-control", label: "PC Kontrolieren", icon: <HiLightningBolt className="w-8 h-8" />, textColor: "" },
 ];
 
