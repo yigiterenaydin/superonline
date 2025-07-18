@@ -138,7 +138,7 @@ const ShortcutsMenu: React.FC<ShortcutsMenuProps> = ({ activeSection, setActiveS
         className="p-4 mb-4 text-white cursor-pointer transform hover:scale-105 transition-all duration-300 ease-in-out relative bg-[#13131D] border border-gray-800 rounded-2xl h-16 flex items-center justify-center"
       >
         <h1 className="text-2xl font-bold text-white">
-          Eren Aydin Kurzbefehle
+        EREN AYDIN KURZBEFEHLE
         </h1>
       </SpotlightCard>
       
