@@ -198,13 +198,13 @@ const ShortcutsMenu: React.FC<ShortcutsMenuProps> = ({ activeSection, setActiveS
                   </div>
                 ) : shortcut.id === 'system-control' ? (
                   <div className="flex flex-col items-center justify-center w-full h-full text-white">
-                    <span className="text-sm font-semibold mb-2">Kontrol</span>
+                    <span className="text-sm font-semibold mb-2">PC Kontrolieren</span>
                     <SystemControl />
                   </div>
                 ) : shortcut.id === 'system-status' ? (
                   <div className="flex items-center justify-center w-full space-x-2">
                     <HiBadgeCheck className="w-8 h-8" />
-                    <span className="text-lg font-bold">Meine Zahlen Bis heute</span>
+                    <span className="text-lg font-bold">mein Bemühungen bis heute</span>
                   </div>
                 ) : (
                   <div className="flex items-center justify-center w-full space-x-2">
