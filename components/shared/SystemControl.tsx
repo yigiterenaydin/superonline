@@ -29,10 +29,10 @@ const SystemControl = () => {
   };
 
   const controls = [
-    { cmd: 'sleep', title: 'Uyku', icon: <HiMoon />, color: 'text-blue-400' },
-    { cmd: 'restart', title: 'Yeniden Başlat', icon: <HiRefresh />, color: 'text-yellow-400' },
-    { cmd: 'shutdown', title: 'Kapat', icon: <HiLightningBolt />, color: 'text-red-500' },
-    { cmd: 'lock', title: 'Kilitle', icon: <HiLockClosed />, color: 'text-green-400' },
+    { cmd: 'sleep', title: 'Ruhezustand', icon: <HiMoon />, color: 'text-blue-400' },
+    { cmd: 'restart', title: 'Neustarten', icon: <HiRefresh />, color: 'text-yellow-400' },
+    { cmd: 'shutdown', title: 'Herunterfahren', icon: <HiLightningBolt />, color: 'text-red-500' },
+    { cmd: 'lock', title: 'Bildschirm sperren', icon: <HiLockClosed />, color: 'text-green-400' },
   ];
 
   return (
