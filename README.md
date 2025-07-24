@@ -75,7 +75,7 @@ Live-Demo: 👉 [superonline.vercel.app](https://superonline.vercel.app)
 
 ## 👨‍💻 Entwickler
 
-**Yigite Ren Aydin**  
+**Adnan Aydin**  
 GitHub: [@yigiterenaydin](https://github.com/yigiterenaydin)
 
 ---
