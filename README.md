@@ -1,83 +1,85 @@
 # 📡 Superonline
 
-Bu proje, [Next.js](https://nextjs.org/) ve [Tailwind CSS](https://tailwindcss.com/) kullanılarak geliştirilmiş modern ve hızlı bir web uygulamasıdır. 
+Dies ist ein modernes Webprojekt, das mit [Next.js](https://nextjs.org/) und [Tailwind CSS](https://tailwindcss.com/) entwickelt wurde. Es bietet eine performante, responsive und modulare Architektur für zeitgemäße Webanwendungen.
 
-Proje canlı olarak şu adreste yayında:  
+Die Anwendung ist live erreichbar unter:  
 🔗 [superonline.vercel.app](https://superonline.vercel.app)
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Funktionen
 
-- ⚡️ Next.js 13 App Router (app/ dizini)
-- 🎨 Tailwind CSS ile responsive ve modern tasarım
-- 🔧 ESLint & TypeScript desteği
-- 🧩 Modüler bileşen yapısı (`Komponenten`)
-- 🌍 Deployment: Vercel
+- ⚡️ Verwendung des Next.js 13 App-Routers (App-Verzeichnis)
+- 🎨 Responsive Design mit Tailwind CSS
+- 🔧 Unterstützung für ESLint & TypeScript
+- 🧩 Wiederverwendbare Komponentenstruktur (`Komponenten`)
+- 🌍 Deployment über Vercel
 
 ---
 
-## 📁 Proje Yapısı
+## 📁 Projektstruktur
 
 ```bash
 .
-├── App/                # Sayfalar ve layout yapısı
-├── Komponenten/        # Yeniden kullanılabilir bileşenler
-├── Öffentlich/         # Public klasörü (görseller vs.)
-├── tailwind.config.ts  # Tailwind yapılandırması
-├── next-env.d.ts       # Next.js için TypeScript env
-├── nächste.config.mjs  # Next.js config dosyası
-├── postcss.config.mjs  # PostCSS ayarları
-├── tsconfig.json       # TypeScript ayarları
-└── README.md           # Bu dosya
+├── App/                # Seiten und Layoutstruktur
+├── Komponenten/        # Wiederverwendbare UI-Komponenten
+├── Öffentlich/         # Öffentlicher Ordner (Bilder etc.)
+├── tailwind.config.ts  # Tailwind-Konfiguration
+├── next-env.d.ts       # Next.js TypeScript Umgebung
+├── nächste.config.mjs  # Next.js Konfigurationsdatei
+├── postcss.config.mjs  # PostCSS Einstellungen
+├── tsconfig.json       # TypeScript Konfiguration
+└── README.md           # Diese Datei
 ```
 
 ---
 
-## 🔧 Kurulum
+## 🔧 Installation
 
-Projeyi çalıştırmak için aşağıdaki adımları takip et:
+Um das Projekt lokal auszuführen, befolge bitte diese Schritte im Terminal:
 
 ```bash
-# 1. Repoyu klonla
+# 1. Repository klonen
 git clone https://github.com/yigiterenaydin/superonline.git
 
-# 2. Klasöre gir
+# 2. In das Projektverzeichnis wechseln
 cd superonline
 
-# 3. Gerekli paketleri yükle
+# 3. Abhängigkeiten installieren
 npm install
 
-# 4. Geliştirme sunucusunu başlat
+# 4. Entwicklungsserver starten
 npm run dev
 ```
 
+> 💡 Hinweis: Du benötigst eine aktuelle Node.js-Version auf deinem System.
+
 ---
 
-## 🧪 Scriptler
+## 🧪 Skripte
 
-| Komut         | Açıklama                        |
-|---------------|---------------------------------|
-| `npm run dev` | Geliştirme sunucusunu başlatır  |
-| `npm run build` | Production için build alır     |
-| `npm run lint` | ESLint ile kodları analiz eder |
+| Befehl           | Beschreibung                            |
+|------------------|------------------------------------------|
+| `npm run dev`    | Startet den Entwicklungsserver           |
+| `npm run build`  | Erstellt einen Produktions-Build         |
+| `npm run lint`   | Führt eine Codeanalyse mit ESLint durch  |
 
 ---
 
 ## 📦 Deployment
 
-Bu proje, [Vercel](https://vercel.com/) üzerinden deploy edilmiştir.  
-Yayında görmek için tıklayın: 👉 [superonline.vercel.app](https://superonline.vercel.app)
+Diese Anwendung wurde mit [Vercel](https://vercel.com/) veröffentlicht.  
+Live-Demo: 👉 [superonline.vercel.app](https://superonline.vercel.app)
 
 ---
 
-## 👨‍💻 Geliştirici
+## 👨‍💻 Entwickler
 
 **Yigite Ren Aydin**  
 GitHub: [@yigiterenaydin](https://github.com/yigiterenaydin)
 
 ---
 
-## 📄 Lisans
+## 📄 Lizenz
 
-Bu proje MIT lisansı ile lisanslanmıştır.
+Dieses Projekt ist unter der MIT-Lizenz lizenziert.
