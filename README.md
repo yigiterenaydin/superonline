@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📡 Superonline
 
-## Getting Started
+Bu proje, [Next.js](https://nextjs.org/) ve [Tailwind CSS](https://tailwindcss.com/) kullanılarak geliştirilmiş modern ve hızlı bir web uygulamasıdır. 
 
-First, run the development server:
+Proje canlı olarak şu adreste yayında:  
+🔗 [superonline.vercel.app](https://superonline.vercel.app)
+
+---
+
+## 🚀 Özellikler
+
+- ⚡️ Next.js 13 App Router (app/ dizini)
+- 🎨 Tailwind CSS ile responsive ve modern tasarım
+- 🔧 ESLint & TypeScript desteği
+- 🧩 Modüler bileşen yapısı (`Komponenten`)
+- 🌍 Deployment: Vercel
+
+---
+
+## 📁 Proje Yapısı
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+.
+├── App/                # Sayfalar ve layout yapısı
+├── Komponenten/        # Yeniden kullanılabilir bileşenler
+├── Öffentlich/         # Public klasörü (görseller vs.)
+├── tailwind.config.ts  # Tailwind yapılandırması
+├── next-env.d.ts       # Next.js için TypeScript env
+├── nächste.config.mjs  # Next.js config dosyası
+├── postcss.config.mjs  # PostCSS ayarları
+├── tsconfig.json       # TypeScript ayarları
+└── README.md           # Bu dosya
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Kurulum
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Projeyi çalıştırmak için aşağıdaki adımları takip et:
 
-## Learn More
+```bash
+# 1. Repoyu klonla
+git clone https://github.com/yigiterenaydin/superonline.git
 
-To learn more about Next.js, take a look at the following resources:
+# 2. Klasöre gir
+cd superonline
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 3. Gerekli paketleri yükle
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 4. Geliştirme sunucusunu başlat
+npm run dev
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧪 Scriptler
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Komut         | Açıklama                        |
+|---------------|---------------------------------|
+| `npm run dev` | Geliştirme sunucusunu başlatır  |
+| `npm run build` | Production için build alır     |
+| `npm run lint` | ESLint ile kodları analiz eder |
+
+---
+
+## 📦 Deployment
+
+Bu proje, [Vercel](https://vercel.com/) üzerinden deploy edilmiştir.  
+Yayında görmek için tıklayın: 👉 [superonline.vercel.app](https://superonline.vercel.app)
+
+---
+
+## 👨‍💻 Geliştirici
+
+**Yigite Ren Aydin**  
+GitHub: [@yigiterenaydin](https://github.com/yigiterenaydin)
+
+---
+
+## 📄 Lisans
+
+Bu proje MIT lisansı ile lisanslanmıştır.
